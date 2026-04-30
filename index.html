@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Research Lab — Advancing science through computation, data, and collaboration."/>
+  <title>Research Lab — Home</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav>
+  <a class="nav-logo" href="index.html">ResearchLab</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<header style="background:var(--ink);color:#fff;padding:6rem 2rem 5rem;text-align:center;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.04;background:repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 1px,transparent 40px);"></div>
+  <div style="position:relative;max-width:700px;margin:0 auto;">
+    <p class="section-label" style="color:var(--accent);margin-bottom:1rem;">Welcome to</p>
+    <h1 style="font-family:var(--font-head);font-size:clamp(2.4rem,6vw,4rem);font-weight:600;letter-spacing:-0.03em;margin-bottom:1.25rem;line-height:1.15;">
+      Intelligent Systems<br>Research Lab
+    </h1>
+    <p style="font-size:1.1rem;color:rgba(255,255,255,0.65);max-width:540px;margin:0 auto 2.5rem;">
+      We develop machine learning methods for real-world problems in health, environment, and language — with a focus on low-resource settings.
+    </p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="research.html" style="background:var(--accent);color:#fff;padding:0.75rem 2rem;border-radius:999px;font-weight:600;font-size:0.9rem;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='.85'" onmouseout="this.style.opacity='1'">Our Research</a>
+      <a href="publications.html" style="background:transparent;color:#fff;padding:0.75rem 2rem;border-radius:999px;border:1.5px solid rgba(255,255,255,0.35);font-weight:600;font-size:0.9rem;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.borderColor='#fff'" onmouseout="this.style.borderColor='rgba(255,255,255,0.35)'">Publications</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── Stats ── -->
+<section style="padding:2.5rem 0 0;">
+  <div class="container">
+    <div class="stats-bar" style="justify-content:space-around;">
+      <div class="stat"><span class="stat-number">5+</span><span class="stat-label">Active projects</span></div>
+      <div class="stat"><span class="stat-number" id="pub-count">30+</span><span class="stat-label">Publications</span></div>
+      <div class="stat"><span class="stat-number">12</span><span class="stat-label">Team members</span></div>
+      <div class="stat"><span class="stat-number">172+</span><span class="stat-label">Total citations</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research highlights ── -->
+<section>
+  <div class="container">
+    <p class="section-label">What we do</p>
+    <h2 class="section-title">Research Areas</h2>
+    <p class="section-sub">Our work spans three interconnected themes, all aimed at meaningful real-world impact.</p>
+    <div class="grid-3">
+
+      <div class="card">
+        <div style="width:44px;height:44px;border-radius:10px;background:rgba(42,157,143,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+          <svg width="22" height="22" fill="none" stroke="var(--accent)" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        </div>
+        <h3 style="font-family:var(--font-head);font-size:1.1rem;font-weight:600;margin-bottom:0.5rem;">NLP &amp; Low-Resource Languages</h3>
+        <p style="font-size:0.88rem;color:var(--ink-3);line-height:1.6;">Building language models for Bangla and other under-resourced languages, making NLP tools accessible beyond English-centric research.</p>
+        <a href="research.html#nlp" style="display:inline-block;margin-top:1rem;font-size:0.82rem;font-weight:600;color:var(--accent);">Learn more →</a>
+      </div>
+
+      <div class="card">
+        <div style="width:44px;height:44px;border-radius:10px;background:rgba(231,111,81,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+          <svg width="22" height="22" fill="none" stroke="var(--accent-2)" stroke-width="1.8" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <h3 style="font-family:var(--font-head);font-size:1.1rem;font-weight:600;margin-bottom:0.5rem;">Medical &amp; Bioinformatics AI</h3>
+        <p style="font-size:0.88rem;color:var(--ink-3);line-height:1.6;">Applying deep learning to medical imaging, drug interaction prediction, and genomic data for healthcare in resource-constrained environments.</p>
+        <a href="research.html#bio" style="display:inline-block;margin-top:1rem;font-size:0.82rem;font-weight:600;color:var(--accent-2);">Learn more →</a>
+      </div>
+
+      <div class="card">
+        <div style="width:44px;height:44px;border-radius:10px;background:rgba(42,157,143,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:1rem;">
+          <svg width="22" height="22" fill="none" stroke="var(--accent)" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+        </div>
+        <h3 style="font-family:var(--font-head);font-size:1.1rem;font-weight:600;margin-bottom:0.5rem;">Remote Sensing &amp; Climate</h3>
+        <p style="font-size:0.88rem;color:var(--ink-3);line-height:1.6;">Using satellite imagery and ML to monitor floods, land use, and environmental change — with a particular focus on South Asian geography.</p>
+        <a href="research.html#climate" style="display:inline-block;margin-top:1rem;font-size:0.82rem;font-weight:600;color:var(--accent);">Learn more →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Recent publications (auto-loaded) ── -->
+<section style="background:white;padding:4rem 0;">
+  <div class="container">
+    <p class="section-label">Latest work</p>
+    <h2 class="section-title">Recent Publications</h2>
+    <p class="section-sub">Updated automatically from ORCID and Semantic Scholar.</p>
+    <div id="recent-pubs">
+      <p style="color:var(--ink-3);font-size:0.9rem;">Loading publications…</p>
+    </div>
+    <div class="text-center" style="margin-top:2rem;">
+      <a href="publications.html" style="display:inline-block;padding:0.65rem 1.75rem;border:1.5px solid var(--accent);border-radius:999px;color:var(--accent);font-weight:600;font-size:0.88rem;transition:all 0.2s;" onmouseover="this.style.background='var(--accent)';this.style.color='#fff'" onmouseout="this.style.background='transparent';this.style.color='var(--accent)'">View all publications →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── News ── -->
+<section>
+  <div class="container">
+    <p class="section-label">Updates</p>
+    <h2 class="section-title">Latest News</h2>
+    <div>
+      <div class="news-item">
+        <span class="news-date">May 2025</span>
+        <div class="news-content">
+          <h4>Paper accepted at ACL 2025</h4>
+          <p>Our work on Bangla semantic parsing was accepted to ACL 2025 main conference.</p>
+        </div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Mar 2025</span>
+        <div class="news-content">
+          <h4>New research grant awarded</h4>
+          <p>We received a two-year grant from ICT Division for our flood monitoring project.</p>
+        </div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Jan 2025</span>
+        <div class="news-content">
+          <h4>PhD students joining the lab</h4>
+          <p>Three new PhD students join us this semester. Welcome Nadia, Rafiq, and Tasneem!</p>
+        </div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Nov 2024</span>
+        <div class="news-content">
+          <h4>Best paper award at ICCIT 2024</h4>
+          <p>Our SAR flood detection paper received the best paper award at ICCIT 2024.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <strong>Intelligent Systems Research Lab</strong><br>
+  Department of CSE · Your University · Dhaka, Bangladesh<br>
+  <a href="mailto:lab@university.edu.bd">lab@university.edu.bd</a>
+  <p style="margin-top:0.75rem;font-size:0.75rem;opacity:0.5;">Publications updated automatically via ORCID &amp; Semantic Scholar APIs · Site hosted free on GitHub Pages</p>
+</footer>
+
+<script>
+// Load 3 most recent publications from data/publications.json
+fetch('data/publications.json')
+  .then(r => r.json())
+  .then(data => {
+    const pubs = data.publications.slice(0, 3);
+    const container = document.getElementById('recent-pubs');
+    container.innerHTML = pubs.map(p => `
+      <div class="pub-item ${p.type === 'conference' ? 'conference' : ''}">
+        <div class="pub-title">
+          ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title}
+        </div>
+        <div class="pub-authors">${p.authors.join(', ')}</div>
+        <div class="pub-venue">${p.venue} · ${p.year}</div>
+        <div class="pub-meta">
+          <span class="tag type-${p.type}">${p.type === 'journal' ? 'Journal' : 'Conference'}</span>
+          <span class="pub-citations">↑ ${p.citations} citations</span>
+        </div>
+      </div>
+    `).join('');
+  })
+  .catch(() => {
+    document.getElementById('recent-pubs').innerHTML = '<p style="color:var(--ink-3)">Could not load publications.</p>';
+  });
+
+// Animate pub count from JSON
+fetch('data/publications.json')
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('pub-count').textContent = data.publications.length + '+';
+  });
+</script>
+</body>
+</html>

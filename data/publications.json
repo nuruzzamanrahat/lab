@@ -1,0 +1,65 @@
+{
+  "last_updated": "2025-05-01",
+  "publications": [
+    {
+      "title": "Deep Learning Approaches for Protein Structure Prediction in Low-Resource Settings",
+      "authors": ["Rahman, A.", "Islam, S.", "Hossain, M.", "Chowdhury, F."],
+      "year": 2025,
+      "venue": "Nature Machine Intelligence",
+      "type": "journal",
+      "doi": "10.1038/s42256-025-00123-4",
+      "url": "https://doi.org/10.1038/s42256-025-00123-4",
+      "abstract": "We present a novel deep learning framework for protein structure prediction that achieves state-of-the-art performance with significantly reduced computational resources.",
+      "citations": 12,
+      "tags": ["deep learning", "bioinformatics", "protein structure"]
+    },
+    {
+      "title": "Efficient Transformer Architectures for Bangla Natural Language Processing",
+      "authors": ["Islam, S.", "Rahman, A.", "Begum, N."],
+      "year": 2024,
+      "venue": "ACL 2024",
+      "type": "conference",
+      "doi": "10.18653/v1/2024.acl-long.45",
+      "url": "https://aclanthology.org/2024.acl-long.45",
+      "abstract": "This paper introduces a compact transformer model fine-tuned for Bangla NLP tasks, outperforming larger multilingual models across six benchmarks.",
+      "citations": 34,
+      "tags": ["NLP", "transformers", "Bangla", "low-resource languages"]
+    },
+    {
+      "title": "Remote Sensing Based Flood Detection Using Synthetic Aperture Radar",
+      "authors": ["Hossain, M.", "Islam, S.", "Karim, R."],
+      "year": 2024,
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "type": "journal",
+      "doi": "10.1109/TGRS.2024.3412210",
+      "url": "https://doi.org/10.1109/TGRS.2024.3412210",
+      "abstract": "A real-time flood mapping pipeline using SAR imagery and convolutional neural networks, evaluated on Bangladesh flood events from 2017–2023.",
+      "citations": 21,
+      "tags": ["remote sensing", "flood detection", "SAR", "CNN"]
+    },
+    {
+      "title": "Graph Neural Networks for Drug-Drug Interaction Prediction",
+      "authors": ["Begum, N.", "Rahman, A.", "Chowdhury, F.", "Hossain, M."],
+      "year": 2023,
+      "venue": "Bioinformatics",
+      "type": "journal",
+      "doi": "10.1093/bioinformatics/btad321",
+      "url": "https://doi.org/10.1093/bioinformatics/btad321",
+      "abstract": "We propose a graph-based model for predicting adverse drug-drug interactions, trained on a curated dataset of 300,000 compound pairs.",
+      "citations": 58,
+      "tags": ["GNN", "drug discovery", "graph learning"]
+    },
+    {
+      "title": "Federated Learning for Privacy-Preserving Medical Image Analysis",
+      "authors": ["Karim, R.", "Islam, S.", "Rahman, A."],
+      "year": 2023,
+      "venue": "MICCAI 2023",
+      "type": "conference",
+      "doi": "10.1007/978-3-031-43898-1_45",
+      "url": "https://doi.org/10.1007/978-3-031-43898-1_45",
+      "abstract": "A federated learning framework for chest X-ray classification that maintains diagnostic accuracy while ensuring patient data never leaves hospital servers.",
+      "citations": 47,
+      "tags": ["federated learning", "medical imaging", "privacy"]
+    }
+  ]
+}

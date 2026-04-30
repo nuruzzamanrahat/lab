@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Full publication list — updated automatically from ORCID and Semantic Scholar."/>
+  <title>Publications — ResearchLab</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">ResearchLab</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html" class="active">Publications</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <h1>Publications</h1>
+  <p>Our full publication list, updated automatically every night from ORCID &amp; Semantic Scholar.</p>
+</div>
+
+<section>
+  <div class="container">
+
+    <!-- Stats -->
+    <div class="stats-bar" style="margin-bottom:2.5rem;justify-content:space-around;">
+      <div class="stat"><span class="stat-number" id="total-pubs">—</span><span class="stat-label">Publications</span></div>
+      <div class="stat"><span class="stat-number" id="total-citations">—</span><span class="stat-label">Total citations</span></div>
+      <div class="stat"><span class="stat-number" id="total-journals">—</span><span class="stat-label">Journal articles</span></div>
+      <div class="stat"><span class="stat-number" id="total-confs">—</span><span class="stat-label">Conference papers</span></div>
+    </div>
+
+    <!-- Last updated -->
+    <p class="updated-note" id="last-updated"></p>
+
+    <!-- Filters -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="journal">Journal</button>
+      <button class="filter-btn type-conf" data-filter="conference">Conference</button>
+      <input type="search" id="search-box" placeholder="Search title, author, keyword…"/>
+    </div>
+
+    <!-- Year groups rendered here -->
+    <div id="pub-list">
+      <p style="color:var(--ink-3);">Loading publications…</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <strong>Intelligent Systems Research Lab</strong><br>
+  Department of CSE · Your University · Dhaka, Bangladesh<br>
+  <a href="mailto:lab@university.edu.bd">lab@university.edu.bd</a>
+  <p style="margin-top:0.75rem;font-size:0.75rem;opacity:0.5;">Publications synced automatically · <a href="https://orcid.org" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5)">ORCID</a> · <a href="https://semanticscholar.org" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5)">Semantic Scholar</a></p>
+</footer>
+
+<script src="js/publications.js"></script>
+</body>
+</html>

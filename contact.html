@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — ResearchLab</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">ResearchLab</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero">
+  <h1>Contact</h1>
+  <p>Questions, collaboration ideas, or prospective students — we'd love to hear from you.</p>
+</div>
+
+<section>
+  <div class="container">
+    <div class="grid-2" style="align-items:start;">
+
+      <!-- Contact info -->
+      <div>
+        <p class="section-label">Find us</p>
+        <h2 class="section-title">Get in touch</h2>
+        <div style="display:flex;flex-direction:column;gap:1.25rem;margin-top:1.5rem;">
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="width:36px;height:36px;border-radius:8px;background:rgba(42,157,143,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="16" height="16" fill="none" stroke="var(--accent)" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:0.88rem;margin-bottom:0.15rem;">Email</div>
+              <a href="mailto:lab@university.edu.bd" style="font-size:0.88rem;color:var(--ink-3);">lab@university.edu.bd</a>
+            </div>
+          </div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="width:36px;height:36px;border-radius:8px;background:rgba(42,157,143,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="16" height="16" fill="none" stroke="var(--accent)" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 5-7 13-7 13S5 14 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:0.88rem;margin-bottom:0.15rem;">Location</div>
+              <div style="font-size:0.88rem;color:var(--ink-3);">Room 408, CSE Building<br>Your University<br>Dhaka 1207, Bangladesh</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:1rem;align-items:flex-start;">
+            <div style="width:36px;height:36px;border-radius:8px;background:rgba(42,157,143,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="16" height="16" fill="none" stroke="var(--accent)" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+            </div>
+            <div>
+              <div style="font-weight:600;font-size:0.88rem;margin-bottom:0.15rem;">Follow our work</div>
+              <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.25rem;">
+                <a href="https://github.com/your-lab" target="_blank" rel="noopener" style="font-size:0.78rem;font-weight:600;padding:0.2rem 0.6rem;border:1px solid var(--border);border-radius:4px;color:var(--ink-2);">GitHub</a>
+                <a href="https://twitter.com/your-lab" target="_blank" rel="noopener" style="font-size:0.78rem;font-weight:600;padding:0.2rem 0.6rem;border:1px solid var(--border);border-radius:4px;color:var(--ink-2);">Twitter/X</a>
+                <a href="https://scholar.google.com" target="_blank" rel="noopener" style="font-size:0.78rem;font-weight:600;padding:0.2rem 0.6rem;border:1px solid var(--border);border-radius:4px;color:var(--ink-2);">Google Scholar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prospective students note -->
+        <div style="margin-top:2.5rem;padding:1.25rem;background:rgba(42,157,143,0.07);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;">
+          <div style="font-weight:600;font-size:0.88rem;margin-bottom:0.3rem;">Prospective students</div>
+          <p style="font-size:0.84rem;color:var(--ink-2);line-height:1.6;">We regularly accept PhD and MSc students. Please read our recent papers before reaching out, and include your CV and a short statement of research interest in your email.</p>
+        </div>
+      </div>
+
+      <!-- Contact form (Formspree — free, no backend) -->
+      <div class="card">
+        <h3 style="font-family:var(--font-head);font-size:1.15rem;font-weight:600;margin-bottom:1.25rem;">Send us a message</h3>
+        <!--
+          Replace YOUR_FORM_ID with your Formspree endpoint:
+          1. Go to https://formspree.io (free, 50 submissions/month)
+          2. Create a form → get your endpoint
+          3. Replace action="https://formspree.io/f/YOUR_FORM_ID"
+        -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contact-form">
+          <div style="margin-bottom:1rem;">
+            <label style="display:block;font-size:0.82rem;font-weight:600;margin-bottom:0.35rem;color:var(--ink-2);">Your name</label>
+            <input type="text" name="name" required
+              style="width:100%;padding:0.6rem 0.9rem;border:1.5px solid var(--border);border-radius:8px;font-family:var(--font-body);font-size:0.9rem;color:var(--ink);background:var(--bg);transition:border-color 0.2s;"
+              onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+          </div>
+          <div style="margin-bottom:1rem;">
+            <label style="display:block;font-size:0.82rem;font-weight:600;margin-bottom:0.35rem;color:var(--ink-2);">Email address</label>
+            <input type="email" name="email" required
+              style="width:100%;padding:0.6rem 0.9rem;border:1.5px solid var(--border);border-radius:8px;font-family:var(--font-body);font-size:0.9rem;color:var(--ink);background:var(--bg);transition:border-color 0.2s;"
+              onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+          </div>
+          <div style="margin-bottom:1rem;">
+            <label style="display:block;font-size:0.82rem;font-weight:600;margin-bottom:0.35rem;color:var(--ink-2);">Subject</label>
+            <select name="subject"
+              style="width:100%;padding:0.6rem 0.9rem;border:1.5px solid var(--border);border-radius:8px;font-family:var(--font-body);font-size:0.9rem;color:var(--ink);background:var(--bg);">
+              <option>General enquiry</option>
+              <option>Prospective PhD student</option>
+              <option>Prospective MSc student</option>
+              <option>Research collaboration</option>
+              <option>Media / press</option>
+            </select>
+          </div>
+          <div style="margin-bottom:1.25rem;">
+            <label style="display:block;font-size:0.82rem;font-weight:600;margin-bottom:0.35rem;color:var(--ink-2);">Message</label>
+            <textarea name="message" rows="5" required
+              style="width:100%;padding:0.6rem 0.9rem;border:1.5px solid var(--border);border-radius:8px;font-family:var(--font-body);font-size:0.9rem;color:var(--ink);background:var(--bg);resize:vertical;transition:border-color 0.2s;"
+              onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"></textarea>
+          </div>
+          <button type="submit"
+            style="width:100%;padding:0.7rem;background:var(--accent);color:#fff;border:none;border-radius:8px;font-family:var(--font-body);font-size:0.9rem;font-weight:600;cursor:pointer;transition:opacity 0.2s;"
+            onmouseover="this.style.opacity='.85'" onmouseout="this.style.opacity='1'">
+            Send message →
+          </button>
+          <p style="font-size:0.75rem;color:var(--ink-3);margin-top:0.75rem;text-align:center;">
+            Powered by <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> · free · no backend needed
+          </p>
+        </form>
+        <div id="form-success" style="display:none;text-align:center;padding:2rem 0;color:var(--accent);">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem;">✓</div>
+          <strong>Message sent!</strong><br>
+          <span style="font-size:0.88rem;color:var(--ink-3);">We'll get back to you within a few days.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>Intelligent Systems Research Lab</strong><br>
+  Department of CSE · Your University · Dhaka, Bangladesh<br>
+  <a href="mailto:lab@university.edu.bd">lab@university.edu.bd</a>
+</footer>
+
+<script>
+// Show success message after Formspree redirect
+if (window.location.search.includes('success')) {
+  document.getElementById('contact-form').style.display = 'none';
+  document.getElementById('form-success').style.display = 'block';
+}
+</script>
+</body>
+</html>
