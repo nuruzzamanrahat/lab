@@ -20,8 +20,6 @@ from pathlib import Path
 # Add each researcher's ORCID ID here (https://orcid.org to get yours free)
 ORCID_IDS = [
     "0000-0002-3991-5537",   # Dr. Muntasir Alam
-    "0009-0003-6685-835X",   # Nuruzzaman Rahat
-    "0000-0002-5759-9216",   # Abid Hossain
 ]
 
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "publications.json"
