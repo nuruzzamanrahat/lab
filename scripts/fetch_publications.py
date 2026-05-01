@@ -21,8 +21,6 @@ from pathlib import Path
 ORCID_IDS = [
     "0000-0002-3991-5537",   # Dr. Muntasir Alam
     "0009-0003-6685-835X",   # Nuruzzaman Rahat
-    "0000-0000-0000-0003",   # Mehedi Hossain
-    "0000-0000-0000-0004",   # Nadia Begum
 ]
 
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "publications.json"
