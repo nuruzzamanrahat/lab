@@ -1,65 +1,148 @@
 {
-  "last_updated": "2025-05-01",
+  "last_updated": "2026-05-01",
   "publications": [
     {
-      "title": "Deep Learning Approaches for Protein Structure Prediction in Low-Resource Settings",
-      "authors": ["Rahman, A.", "Islam, S.", "Hossain, M.", "Chowdhury, F."],
-      "year": 2025,
-      "venue": "Nature Machine Intelligence",
-      "type": "journal",
-      "doi": "10.1038/s42256-025-00123-4",
-      "url": "https://doi.org/10.1038/s42256-025-00123-4",
-      "abstract": "We present a novel deep learning framework for protein structure prediction that achieves state-of-the-art performance with significantly reduced computational resources.",
-      "citations": 12,
-      "tags": ["deep learning", "bioinformatics", "protein structure"]
-    },
-    {
-      "title": "Efficient Transformer Architectures for Bangla Natural Language Processing",
-      "authors": ["Islam, S.", "Rahman, A.", "Begum, N."],
+      "title": "Dynamic vaccination strategies in dual-strain epidemics: A multi-agent-based game-theoretic approach on scale-free hybrid networks",
       "year": 2024,
-      "venue": "ACL 2024",
-      "type": "conference",
-      "doi": "10.18653/v1/2024.acl-long.45",
-      "url": "https://aclanthology.org/2024.acl-long.45",
-      "abstract": "This paper introduces a compact transformer model fine-tuned for Bangla NLP tasks, outperforming larger multilingual models across six benchmarks.",
-      "citations": 34,
-      "tags": ["NLP", "transformers", "Bangla", "low-resource languages"]
+      "doi": "10.1016/j.chaos.2024.115067",
+      "type": "journal",
+      "venue": "Chaos, Solitons &amp; Fractals",
+      "authors": [
+        "Mushrafi Munim Sushmit",
+        "Reyajul Hasan Leon",
+        "Muntasir Alam"
+      ],
+      "tags": [],
+      "citations": 8,
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.chaos.2024.115067"
     },
     {
-      "title": "Remote Sensing Based Flood Detection Using Synthetic Aperture Radar",
-      "authors": ["Hossain, M.", "Islam, S.", "Karim, R."],
+      "title": "An in-silico game theoretic approach for health intervention efficacy assessment",
       "year": 2024,
-      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "doi": "10.1016/j.health.2024.100318",
       "type": "journal",
-      "doi": "10.1109/TGRS.2024.3412210",
-      "url": "https://doi.org/10.1109/TGRS.2024.3412210",
-      "abstract": "A real-time flood mapping pipeline using SAR imagery and convolutional neural networks, evaluated on Bangladesh flood events from 2017–2023.",
-      "citations": 21,
-      "tags": ["remote sensing", "flood detection", "SAR", "CNN"]
+      "venue": "Healthcare Analytics",
+      "authors": [
+        "Mansura Akter",
+        "Muntasir Alam",
+        "Md. Kamrujjaman"
+      ],
+      "tags": [],
+      "citations": 8,
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.health.2024.100318"
     },
     {
-      "title": "Graph Neural Networks for Drug-Drug Interaction Prediction",
-      "authors": ["Begum, N.", "Rahman, A.", "Chowdhury, F.", "Hossain, M."],
-      "year": 2023,
-      "venue": "Bioinformatics",
+      "title": "Modeling and investigating the dilemma of early and delayed vaccination driven by the dynamics of imitation and aspiration",
+      "year": 2024,
+      "doi": "10.1016/j.chaos.2023.114364",
       "type": "journal",
-      "doi": "10.1093/bioinformatics/btad321",
-      "url": "https://doi.org/10.1093/bioinformatics/btad321",
-      "abstract": "We propose a graph-based model for predicting adverse drug-drug interactions, trained on a curated dataset of 300,000 compound pairs.",
-      "citations": 58,
-      "tags": ["GNN", "drug discovery", "graph learning"]
+      "venue": "Chaos, Solitons &amp; Fractals",
+      "authors": [
+        "U. Kulsum",
+        "Muntasir Alam",
+        "Md. Kamrujjaman"
+      ],
+      "tags": [],
+      "citations": 17,
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.chaos.2023.114364"
     },
     {
-      "title": "Federated Learning for Privacy-Preserving Medical Image Analysis",
-      "authors": ["Karim, R.", "Islam, S.", "Rahman, A."],
-      "year": 2023,
-      "venue": "MICCAI 2023",
-      "type": "conference",
-      "doi": "10.1007/978-3-031-43898-1_45",
-      "url": "https://doi.org/10.1007/978-3-031-43898-1_45",
-      "abstract": "A federated learning framework for chest X-ray classification that maintains diagnostic accuracy while ensuring patient data never leaves hospital servers.",
-      "citations": 47,
-      "tags": ["federated learning", "medical imaging", "privacy"]
+      "title": "A Game-Theoretic Modeling Approach to Comprehend the Advantage of Dynamic Health Interventions in Limiting the Transmission of Multi-Strain Epidemics",
+      "year": 2022,
+      "doi": "10.4236/jamp.2022.1012248",
+      "type": "journal",
+      "venue": "Journal of Applied Mathematics and Physics",
+      "authors": [
+        "Muntasir Alam",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 11,
+      "abstract": "",
+      "url": "https://doi.org/10.4236/jamp.2022.1012248"
+    },
+    {
+      "title": "Abrupt epidemic outbreak could be well tackled by multiple pre-emptive provisions-A game approach considering structured and unstructured populations",
+      "year": 2021,
+      "doi": "10.1016/j.chaos.2020.110584",
+      "type": "journal",
+      "venue": "Chaos, Solitons and Fractals",
+      "authors": [
+        "Muntasir Alam",
+        "Yuki Ida",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 11,
+      "abstract": "Abstract Forecasting the dynamics of flu epidemics could be vital for policy-making concerning the allocation of public health resources. Reliable predictions about disease transmission networks also help fix the benchmark for reconciling diverse aspects to the decision-makers while selecting and implementing a suitable health intervention. To this aim, we propose an S I R / V M epidemic game model to reveal the dynamic evolution of intervention policies, entangling social feedbacks, behavioral responses, and viral transmission on several network topologies into a single framework. Besides vaccination, this study introduces intermediate defense measures (IDM) as an alternative provision to restraint the epidemic resurgence in structured and unstructured populations. Although heterogeneity is a commonly observed phenomenon in human populations, many antecedent studies typically preferred homogenous networks. Here, we investigate the disparities found in epidemic diffusion within homogeneous and heterogeneous networks, employing a mean-field approximation and multi-agent simulation, respectively. Additionally, we explore both network types simultaneously and justify their potential impacts on control provisions’ success. As a general tendency, vaccination and IDM complement each other within the entire parametric regions. Our study elucidates the coexistence of multiple policies as well as the abrupt emergence of stain points adopting several network topologies. A careful investigation on stain points reveals that hub agents solely rely on free-riding brings the endemic state of an epidemic, triggered by a sudden extinction of vaccinators and self-protectors. The emergence of too many self-interested people spoils the herd immunity state and initiates the outbreaks, heavily observed in well-mixed and scale-free networks. On the other hand, the coexistence of policies occurs mostly in the networks mentioned above but rarely seen in the lattice network. The robustness of the proposed model has been tested by adding mean-field theoretical results for a nonspatial population and agent-based simulated outcomes for spatial populations under a wide variety of parametric conditions. Model outcomes confirm that the game-payoff regulates the epidemic dynamics, while the epidemic propagation governs individuals’ health status. Moreover, we expose a complex interplay between cost and efficacy of control provisions and justify keeping the provisional costs reasonably lower would be an ultimate challenge to maintain disease attenuation. The central theme of this paper is thus to portray the holistic summary of epidemic prevalence and the relative contribution of each intervention to epidemic remission.",
+      "url": "https://doi.org/10.1016/j.chaos.2020.110584"
+    },
+    {
+      "title": "Based on mathematical epidemiology and evolutionary game theory, which is more effective: quarantine or isolation policy?",
+      "year": 2020,
+      "doi": "10.1088/1742-5468/ab75ea",
+      "type": "journal",
+      "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+      "authors": [
+        "Muntasir Alam",
+        "K. Kabir",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 86,
+      "abstract": "Outbreaks of repeated pandemics and heavy epidemics are daunting threats to human life. This study aims at investigating the dynamics of disease conferring temporary or waning immunity with several forced-control policies aided by vaccination game theory. Considering an infinite and well-mixed homogenous population, our proposed model further illustrates the significance of introducing two well-known forced control techniques, namely, quarantine and isolation, in order to model the dynamics of an infectious disease that spreads within a human population where pre-emptive vaccination has partially been taken before the epidemic season begins. Moreover, we carefully examine the combined effects of these two types (pre-emptive and forced) of protecting measures using the SEIR-type epidemic model. An in-depth investigation based on evolutionary game theory numerically quantifies the weighing impact of individuals’ vaccinating decisions to improve the efficacy of forced control policies leading up to the relaxation of the epidemic spreading severity. A deterministic SVEIR model, including vaccinated (V) and exposed (E) states, is proposed having no spatial structure while implementing these intervention techniques. This study uses a mixed control strategy relying on quarantine and isolation policies to quantify the optimum requirement of vaccines for eradicating disease prevalence completely from human societies. Furthermore, our theoretical study justifies the fact that adopting forced control policies significantly reduces the required level of vaccination to suppress emerging disease prevalence, and it also confirms that the joint policy works even better when the epidemic outbreak takes place at a higher transmission rate. Research reveals that the isolation policy is a better disease attenuation tool than the quarantine policy, especially in endemic regions where the disease progression rate is relatively higher. However, a meager progression rate gradually weakens the speed of an epidemic outbreak and, therefore, applying a moderate level of control policies is sufficient to restore the disease-free state. Essentially, positive measures (pre-emptive vaccination) regulate the position of the critical line between two phases, whereas exposed provisions (quarantine or isolation) are rather dedicated to mitigating the disease spreading in endemic regions. Thus, an optimal interplay between these two types of intervention techniques works remarkably well in attenuating the epidemic size. Despite having advanced on the development of new vaccines and control strategies to mitigate epidemics, many diseases like measles, tuberculosis, Ebola, and flu are still persistent. Here, we present a dynamic analysis of the SVEIR model using mean-field theory to develop a simple but efficient strategy for epidemic control based on the simultaneous application of the quarantine and isolation policies. Highlights • This model incorporates the elements of mathematical epidemiology and a vaccination game into a single framework. • A dynamical analysis of the SEIR/V epidemic model equipped with quarantine and isolation policies is introduced. • The proposed game-theoretic framework rigorously addresses real situations when control policies are adopted simultaneously as well as separately. • Adopting control policies can significantly reduce the required level of vaccination to suppress disease prevalence. • A joint policy seems impressive when an epidemic outbreak takes place at a higher transmission rate. • For a smaller basic reproduction number, the quarantine policy outperforms the isolation policy.",
+      "url": "https://doi.org/10.1088/1742-5468/ab75ea"
+    },
+    {
+      "title": "A game theoretic approach to discuss the positive secondary effect of vaccination scheme in an infinite and well-mixed population",
+      "year": 2019,
+      "doi": "10.1016/j.chaos.2019.05.031",
+      "type": "journal",
+      "venue": "Chaos, Solitons & Fractals",
+      "authors": [
+        "Muntasir Alam",
+        "Masaki Tanaka",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 44,
+      "abstract": "Abstract Pre-emptive vaccination policy used in controlling the rapid spreading of infectious diseases is considered as one of the most challenging issues imposed to mankind, causing enormous death tolls over the years. This paper dedicatedly studies the dilemma effect coming from the failure of getting perfect immunity to those individuals who committed vaccination earlier. Therefore, we propose a new theoretical model that slows down the infection spreading and also facilitates quicker recovery time than what the previous model does even if a vaccinator fails to obtain perfect immunity. We name this effect as the “positive secondary effect” of vaccination as it gives a second chance to the vaccinators which in return subdues the rapid spreading that helps in producing better social average payoff as well as keeping the final epidemic size smaller. Moreover, to address the positive secondary effect more precisely, we introduce two different parameters; namely, relaxation parameter (η) and foster parameter (δ) in two different directions to quantify the individual effects resulting from each of the parameter space as well as their superposition effect. An in-depth discussion focuses on the influential role played by our proposed model via discounting and faster recovery effects while a second chance is given to the vaccinators. In addition, we also examine the situation when discounting effect brought by η outperforms very much than its faster recovery controlled by δ as well as the superposition effects. Unlike all previous studies dealing with vaccination game, we pay much attention to investigating the secondary effect of imperfect vaccination policy. Our proposed theoretical scheme completely reproduces the decision-making process of choosing an imperfect provision based on evolutionary game theory entailed with the widely used SIR (Susceptible–Infected–Recovered) epidemic model. Without considering any spatial structure and perfect vaccination policy, our model presumes the population being infinite and well-mixed to represent the infection spreading dynamics mathematically. This study is conducted throughout using the so-called theoretical approach. Besides that, three different updating rules based on evolutionary game theory have also been considered to investigate all possible situations. Later on, we draw 2D full phase diagrams showing the final epidemic size, vaccination coverage, and average social payoff quantitatively. Finally, our theoretical result is compared with the counterpart result obtained from the multi-agent simulation (MAS) approach and a good agreement is found, hence the appropriateness of the proposed model is fully justified.",
+      "url": "https://doi.org/10.1016/j.chaos.2019.05.031"
+    },
+    {
+      "title": "Three-strategy and four-strategy model of vaccination game introducing an intermediate protecting measure",
+      "year": 2019,
+      "doi": "10.1016/j.amc.2018.10.015",
+      "type": "journal",
+      "venue": "Applied Mathematics and Computation",
+      "authors": [
+        "Muntasir Alam",
+        "Kazuki Kuga",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 66,
+      "abstract": "Abstract We build a new analytic scheme that competently reproduces the decision-making process of choosing an imperfect provision based on the evolutionary game theory dovetailed with the SIR model for epidemic spreading dynamics. Aside from considering the two extreme options whether or not taking vaccination, we consider an ‘intermediate defense measure’ (IDM) that emulates hand-washing, masking, gargling, and taking energy drinks, defined as the third strategy while taking vaccination as well as IDM at the same time as the fourth strategy. In the present study, each of the proposed three imperfect provisions is able to oppress infectious diseases like Flu, Influenza, Ebola, and SARS during an epidemic season with certain extent. Considering an infinite and well-mixed population, a new analytic framework is built to take care of those three cases instead of perfect vaccination. Unlike MAS (multi-agent simulation) approach we conduct our study throughout using the so-called theoretical approach. Besides that, three different strategy updating rules based on evolutionary game theory have also been considered in our proposed model. We successfully obtain phase diagrams showing the final epidemic size, social average payoff and the respective fractions of the different strategy holders using various values of effectiveness and efficiency coefficients. Finally, a comprehensive discussion is made with comparison among the two-, three- and four- strategy models to get a holistic idea justifying how imperfect provisions work during an epidemic spreading.",
+      "url": "https://doi.org/10.1016/j.amc.2018.10.015"
+    },
+    {
+      "title": "Various error settings bring different noise-driven effects on network reciprocity in spatial prisoner's dilemma",
+      "year": 2018,
+      "doi": "10.1016/j.chaos.2018.07.014",
+      "type": "journal",
+      "venue": "Chaos, Solitons & Fractals",
+      "authors": [
+        "Muntasir Alam",
+        "Keisuke Nagashima",
+        "J. Tanimoto"
+      ],
+      "tags": [],
+      "citations": 33,
+      "abstract": "Abstract In view of stochastic resonance effect, this paper reports what type of additional noise can draw more enhanced network reciprocity in spatial prisoner's dilemma (SPD) games presuming different underlying networks as well as strategy updating rules. Relying on a series of simulations comprehensively designed, we explored various noise models namely action error, copy error, observation error, by either placing random agents or biased agents and variant settings of those. We found that the influence by adding noise significantly differs depending on the type of noise as well as the combination of what underlying network and update rule are presumed. Action error when added to SPD games presuming deterministic updating rule shows relatively large enhancement for cooperation.",
+      "url": "https://doi.org/10.1016/j.chaos.2018.07.014"
     }
   ]
 }
