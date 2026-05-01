@@ -2,18 +2,6 @@
   "last_updated": "2026-05-01",
   "publications": [
     {
-      "title": "Investigating the effect of adaptive optimal control function in epidemic dynamics: predictions and strategy evolution based on SIR/V game theoretic framework",
-      "year": 2025,
-      "doi": "10.48550/arxiv.2512.06021",
-      "type": "journal",
-      "venue": "Arxiv",
-      "authors": [],
-      "tags": [],
-      "citations": 0,
-      "abstract": "",
-      "url": "https://doi.org/10.48550/arxiv.2512.06021"
-    },
-    {
       "title": "Dynamic vaccination strategies in dual-strain epidemics: A multi-agent-based game-theoretic approach on scale-free hybrid networks",
       "year": 2024,
       "doi": "10.1016/j.chaos.2024.115067",
@@ -60,60 +48,6 @@
       "citations": 17,
       "abstract": "",
       "url": "https://doi.org/10.1016/j.chaos.2023.114364"
-    },
-    {
-      "title": "Soret and dufour impacts on radiative power-law fluid flow via continuously stretchable surface with varying viscosity and thermal conductivity",
-      "year": 2024,
-      "doi": "10.1038/s41598-024-81007-8",
-      "type": "journal",
-      "venue": "Scientific Reports",
-      "authors": [
-        "T. Khaleque",
-        "A. Hossain",
-        "M. Shamshuddin",
-        "M. Ferdows",
-        "S. O. Salawu",
-        "Shuyu Sun"
-      ],
-      "tags": [],
-      "citations": 2,
-      "abstract": "",
-      "url": "https://doi.org/10.1038/s41598-024-81007-8"
-    },
-    {
-      "title": "Heat transmission phenomenon in magnetic nanofluid flow across movable flat device with heat source impact: local non-similarity solution with 2nd-stage truncation",
-      "year": 2024,
-      "doi": "10.1007/s10973-023-12751-8",
-      "type": "journal",
-      "venue": "Journal of Thermal Analysis and Calorimetry",
-      "authors": [
-        "A. Hossain",
-        "MD. Shamashuddin",
-        "K. K. Asogwa",
-        "M. Ferdows"
-      ],
-      "tags": [],
-      "citations": 9,
-      "abstract": "",
-      "url": "https://doi.org/10.1007/s10973-023-12751-8"
-    },
-    {
-      "title": "New Similarity Solutions of Magnetohydrodynamic Flow Over Horizontal Plate by Lie Group with Nonlinear Hydrodynamic and Linear Thermal and Mass Slips",
-      "year": 2023,
-      "doi": "10.1007/s44198-023-00145-1",
-      "type": "journal",
-      "venue": "Journal of Nonlinear Mathematical Physics",
-      "authors": [
-        "M. Ferdows",
-        "A. Hossain",
-        "M. J. Uddin",
-        "Fahiza Tabassum Mim",
-        "Shuyu Sun"
-      ],
-      "tags": [],
-      "citations": 2,
-      "abstract": "The viscous laminar magnetohydrodynamic convective boundary layer flow with the combined effects of chemical reaction and nonlinear velocity slip and linear thermal and concentration slips have been considered across a flat plate in motion. Using a non-dimensional transformation attained by the single parameter continuous group method, the governing equations are transformed into a system of nonlinear ordinary similarity equations, then, the solutions of the coupled system of equations are constructed for velocity, temperature, and concentration functions by using the numerical methods. Among the parameters that have been looked at are the buoyancy parameter N, the nonlinear slip parameter n1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathrm{n}}_{1}$$\\end{document}, the order of chemical reaction n, the Prandtl number Pr, and the Schmidt number Sc. An investigation was made on the profiles with respect to mixed convection parameter λ\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\uplambda $$\\end{document}, order of chemical reaction n, arbitrary index parameter n1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathrm{n}}_{1}$$\\end{document}, velocity slip parameter a, thermal slip parameter b, mass slip parameter c, suction parameter fw, magnetic parameter M. Verification of the results were possible due to comparison of two numerical methods to obtain the solution to the differential equations. The present study indicates that, for a range of values of the magnetic parameter, the wall shear stress decreases with increasing mixed convection. Moreover, for a variety of mixed convection parameter instances, the wall heat transfer decreases with increasing perpendicular magnetic effect.",
-      "url": "https://doi.org/10.1007/s44198-023-00145-1"
     },
     {
       "title": "A Game-Theoretic Modeling Approach to Comprehend the Advantage of Dynamic Health Interventions in Limiting the Transmission of Multi-Strain Epidemics",
