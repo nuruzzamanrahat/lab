@@ -1,0 +1,54 @@
+# .github/workflows/update-publications.yml
+#
+# Runs every night at 02:00 UTC, fetches fresh publication data
+# from ORCID + Semantic Scholar, commits the updated JSON, and
+# the site redeploys automatically (GitHub Pages / Netlify).
+#
+# Zero cost: GitHub Actions free tier gives 2,000 min/month — this job
+# uses about 1 minute per run, so ~30 min/month total.
+
+name: Update publications
+
+on:
+  schedule:
+    - cron: "0 2 * * *"        # every day at 02:00 UTC
+  workflow_dispatch:            # also allows manual trigger from GitHub UI
+  push:
+    paths:
+      - "scripts/fetch_publications.py"   # re-run when script is updated
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write            # needed to commit the updated JSON
+
+    steps:
+      # 1. Check out the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: pip install requests
+
+      # 4. Run the fetch script
+      - name: Fetch publications
+        run: python scripts/fetch_publications.py
+
+      # 5. Commit & push if the JSON changed
+      - name: Commit updated publications
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/publications.json
+          # Only commit when there are actual changes
+          git diff --cached --quiet || git commit -m "chore: update publications [skip ci]"
+          git push
