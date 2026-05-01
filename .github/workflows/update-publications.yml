@@ -20,8 +20,10 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  
     permissions:
-      contents: write            # needed to commit the updated JSON
+      contents: write           # needed to commit the updated JSON
 
     steps:
       # 1. Check out the repo
