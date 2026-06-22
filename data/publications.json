@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "publications": [
     {
       "title": "An intervention game approach triggered by triple defense measures for controlling disease transmission in the context of multi-strain epidemics",
@@ -82,10 +82,14 @@
       "doi": "10.1016/j.chaos.2020.110584",
       "type": "journal",
       "venue": "Chaos, Solitons and Fractals",
-      "authors": [],
+      "authors": [
+        "Muntasir Alam",
+        "Yuki Ida",
+        "J. Tanimoto"
+      ],
       "tags": [],
-      "citations": 0,
-      "abstract": "",
+      "citations": 11,
+      "abstract": "Abstract Forecasting the dynamics of flu epidemics could be vital for policy-making concerning the allocation of public health resources. Reliable predictions about disease transmission networks also help fix the benchmark for reconciling diverse aspects to the decision-makers while selecting and implementing a suitable health intervention. To this aim, we propose an S I R / V M epidemic game model to reveal the dynamic evolution of intervention policies, entangling social feedbacks, behavioral responses, and viral transmission on several network topologies into a single framework. Besides vaccination, this study introduces intermediate defense measures (IDM) as an alternative provision to restraint the epidemic resurgence in structured and unstructured populations. Although heterogeneity is a commonly observed phenomenon in human populations, many antecedent studies typically preferred homogenous networks. Here, we investigate the disparities found in epidemic diffusion within homogeneous and heterogeneous networks, employing a mean-field approximation and multi-agent simulation, respectively. Additionally, we explore both network types simultaneously and justify their potential impacts on control provisions’ success. As a general tendency, vaccination and IDM complement each other within the entire parametric regions. Our study elucidates the coexistence of multiple policies as well as the abrupt emergence of stain points adopting several network topologies. A careful investigation on stain points reveals that hub agents solely rely on free-riding brings the endemic state of an epidemic, triggered by a sudden extinction of vaccinators and self-protectors. The emergence of too many self-interested people spoils the herd immunity state and initiates the outbreaks, heavily observed in well-mixed and scale-free networks. On the other hand, the coexistence of policies occurs mostly in the networks mentioned above but rarely seen in the lattice network. The robustness of the proposed model has been tested by adding mean-field theoretical results for a nonspatial population and agent-based simulated outcomes for spatial populations under a wide variety of parametric conditions. Model outcomes confirm that the game-payoff regulates the epidemic dynamics, while the epidemic propagation governs individuals’ health status. Moreover, we expose a complex interplay between cost and efficacy of control provisions and justify keeping the provisional costs reasonably lower would be an ultimate challenge to maintain disease attenuation. The central theme of this paper is thus to portray the holistic summary of epidemic prevalence and the relative contribution of each intervention to epidemic remission.",
       "url": "https://doi.org/10.1016/j.chaos.2020.110584"
     },
     {
