@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-07",
   "publications": [
     {
       "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
@@ -112,7 +112,7 @@
       "venue": "Journal of Statistical Mechanics: Theory and Experiment",
       "authors": [
         "Muntasir Alam",
-        "K. Kabir",
+        "K. M. Ariful Kabir",
         "J. Tanimoto"
       ],
       "tags": [],
