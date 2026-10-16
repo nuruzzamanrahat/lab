@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-16",
   "publications": [
     {
       "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
@@ -79,12 +79,9 @@
       "doi": "10.4236/jamp.2022.1012248",
       "type": "journal",
       "venue": "Journal of Applied Mathematics and Physics",
-      "authors": [
-        "Muntasir Alam",
-        "J. Tanimoto"
-      ],
+      "authors": [],
       "tags": [],
-      "citations": 11,
+      "citations": 0,
       "abstract": "",
       "url": "https://doi.org/10.4236/jamp.2022.1012248"
     },
