@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-04",
   "publications": [
     {
       "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
@@ -91,10 +91,14 @@
       "doi": "10.1088/1742-5468/ab75ea",
       "type": "journal",
       "venue": "Journal of Statistical Mechanics: Theory and Experiment",
-      "authors": [],
+      "authors": [
+        "Muntasir Alam",
+        "K. M. Ariful Kabir",
+        "J. Tanimoto"
+      ],
       "tags": [],
-      "citations": 0,
-      "abstract": "",
+      "citations": 91,
+      "abstract": "Outbreaks of repeated pandemics and heavy epidemics are daunting threats to human life. This study aims at investigating the dynamics of disease conferring temporary or waning immunity with several forced-control policies aided by vaccination game theory. Considering an infinite and well-mixed homogenous population, our proposed model further illustrates the significance of introducing two well-known forced control techniques, namely, quarantine and isolation, in order to model the dynamics of an infectious disease that spreads within a human population where pre-emptive vaccination has partially been taken before the epidemic season begins. Moreover, we carefully examine the combined effects of these two types (pre-emptive and forced) of protecting measures using the SEIR-type epidemic model. An in-depth investigation based on evolutionary game theory numerically quantifies the weighing impact of individuals’ vaccinating decisions to improve the efficacy of forced control policies leading up to the relaxation of the epidemic spreading severity. A deterministic SVEIR model, including vaccinated (V) and exposed (E) states, is proposed having no spatial structure while implementing these intervention techniques. This study uses a mixed control strategy relying on quarantine and isolation policies to quantify the optimum requirement of vaccines for eradicating disease prevalence completely from human societies. Furthermore, our theoretical study justifies the fact that adopting forced control policies significantly reduces the required level of vaccination to suppress emerging disease prevalence, and it also confirms that the joint policy works even better when the epidemic outbreak takes place at a higher transmission rate. Research reveals that the isolation policy is a better disease attenuation tool than the quarantine policy, especially in endemic regions where the disease progression rate is relatively higher. However, a meager progression rate gradually weakens the speed of an epidemic outbreak and, therefore, applying a moderate level of control policies is sufficient to restore the disease-free state. Essentially, positive measures (pre-emptive vaccination) regulate the position of the critical line between two phases, whereas exposed provisions (quarantine or isolation) are rather dedicated to mitigating the disease spreading in endemic regions. Thus, an optimal interplay between these two types of intervention techniques works remarkably well in attenuating the epidemic size. Despite having advanced on the development of new vaccines and control strategies to mitigate epidemics, many diseases like measles, tuberculosis, Ebola, and flu are still persistent. Here, we present a dynamic analysis of the SVEIR model using mean-field theory to develop a simple but efficient strategy for epidemic control based on the simultaneous application of the quarantine and isolation policies. Highlights • This model incorporates the elements of mathematical epidemiology and a vaccination game into a single framework. • A dynamical analysis of the SEIR/V epidemic model equipped with quarantine and isolation policies is introduced. • The proposed game-theoretic framework rigorously addresses real situations when control policies are adopted simultaneously as well as separately. • Adopting control policies can significantly reduce the required level of vaccination to suppress disease prevalence. • A joint policy seems impressive when an epidemic outbreak takes place at a higher transmission rate. • For a smaller basic reproduction number, the quarantine policy outperforms the isolation policy.",
       "url": "https://doi.org/10.1088/1742-5468/ab75ea"
     },
     {
@@ -130,11 +134,15 @@
       "year": 2018,
       "doi": "10.1016/j.chaos.2018.07.014",
       "type": "journal",
-      "venue": "Chaos, Solitons and Fractals",
-      "authors": [],
+      "venue": "Chaos, Solitons & Fractals",
+      "authors": [
+        "Muntasir Alam",
+        "Keisuke Nagashima",
+        "J. Tanimoto"
+      ],
       "tags": [],
-      "citations": 0,
-      "abstract": "",
+      "citations": 33,
+      "abstract": "Abstract In view of stochastic resonance effect, this paper reports what type of additional noise can draw more enhanced network reciprocity in spatial prisoner's dilemma (SPD) games presuming different underlying networks as well as strategy updating rules. Relying on a series of simulations comprehensively designed, we explored various noise models namely action error, copy error, observation error, by either placing random agents or biased agents and variant settings of those. We found that the influence by adding noise significantly differs depending on the type of noise as well as the combination of what underlying network and update rule are presumed. Action error when added to SPD games presuming deterministic updating rule shows relatively large enhancement for cooperation.",
       "url": "https://doi.org/10.1016/j.chaos.2018.07.014"
     }
   ]
