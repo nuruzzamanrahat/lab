@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-10",
   "publications": [
     {
       "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
@@ -157,11 +157,15 @@
       "year": 2018,
       "doi": "10.1016/j.chaos.2018.07.014",
       "type": "journal",
-      "venue": "Chaos, Solitons and Fractals",
-      "authors": [],
+      "venue": "Chaos, Solitons & Fractals",
+      "authors": [
+        "Muntasir Alam",
+        "Keisuke Nagashima",
+        "J. Tanimoto"
+      ],
       "tags": [],
-      "citations": 0,
-      "abstract": "",
+      "citations": 33,
+      "abstract": "Abstract In view of stochastic resonance effect, this paper reports what type of additional noise can draw more enhanced network reciprocity in spatial prisoner's dilemma (SPD) games presuming different underlying networks as well as strategy updating rules. Relying on a series of simulations comprehensively designed, we explored various noise models namely action error, copy error, observation error, by either placing random agents or biased agents and variant settings of those. We found that the influence by adding noise significantly differs depending on the type of noise as well as the combination of what underlying network and update rule are presumed. Action error when added to SPD games presuming deterministic updating rule shows relatively large enhancement for cooperation.",
       "url": "https://doi.org/10.1016/j.chaos.2018.07.014"
     }
   ]
