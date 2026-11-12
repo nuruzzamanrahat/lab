@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "publications": [
     {
       "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
@@ -69,7 +69,7 @@
         "Md. Kamrujjaman"
       ],
       "tags": [],
-      "citations": 20,
+      "citations": 21,
       "abstract": "",
       "url": "https://doi.org/10.1016/j.chaos.2023.114364"
     },
@@ -148,7 +148,7 @@
         "J. Tanimoto"
       ],
       "tags": [],
-      "citations": 69,
+      "citations": 70,
       "abstract": "Abstract We build a new analytic scheme that competently reproduces the decision-making process of choosing an imperfect provision based on the evolutionary game theory dovetailed with the SIR model for epidemic spreading dynamics. Aside from considering the two extreme options whether or not taking vaccination, we consider an ‘intermediate defense measure’ (IDM) that emulates hand-washing, masking, gargling, and taking energy drinks, defined as the third strategy while taking vaccination as well as IDM at the same time as the fourth strategy. In the present study, each of the proposed three imperfect provisions is able to oppress infectious diseases like Flu, Influenza, Ebola, and SARS during an epidemic season with certain extent. Considering an infinite and well-mixed population, a new analytic framework is built to take care of those three cases instead of perfect vaccination. Unlike MAS (multi-agent simulation) approach we conduct our study throughout using the so-called theoretical approach. Besides that, three different strategy updating rules based on evolutionary game theory have also been considered in our proposed model. We successfully obtain phase diagrams showing the final epidemic size, social average payoff and the respective fractions of the different strategy holders using various values of effectiveness and efficiency coefficients. Finally, a comprehensive discussion is made with comparison among the two-, three- and four- strategy models to get a holistic idea justifying how imperfect provisions work during an epidemic spreading.",
       "url": "https://doi.org/10.1016/j.amc.2018.10.015"
     },
