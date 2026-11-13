@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-13",
   "publications": [
     {
-      "title": "An Adaptive Control Analytic Framework for Epidemic Dynamics and Strategy Evolution in Healthcare Systems",
+      "title": "An adaptive control analytic framework for epidemic dynamics and strategy evolution in healthcare systems",
       "year": 2026,
-      "doi": "10.2139/ssrn.6721335",
+      "doi": "10.1016/j.health.2026.100503",
       "type": "journal",
-      "venue": "",
+      "venue": "Healthcare Analytics",
       "authors": [],
       "tags": [],
       "citations": 0,
       "abstract": "",
-      "url": "https://doi.org/10.2139/ssrn.6721335"
+      "url": "https://doi.org/10.1016/j.health.2026.100503"
     },
     {
       "title": "An intervention game approach triggered by triple defense measures for controlling disease transmission in the context of multi-strain epidemics",
